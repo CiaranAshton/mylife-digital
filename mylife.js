@@ -69,11 +69,7 @@ const calc = {
     const data = getData(file);
     let most = 0;
     for (let i = 0; i < data.length; i++) {
-      let inline = 0;
-      for (let j = 0; j < data[i].length; j++) {
-        inline += 1;
-        inline > most ? (most = inline) : null;
-      }
+      data[i].length > most ? (most = data[i].length) : null;
     }
     return most;
   },
