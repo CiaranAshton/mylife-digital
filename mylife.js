@@ -39,7 +39,6 @@ const calc = {
    * @return {Number} sum
    */
   summation: function(file) {
-    const data = getData(file);
     const array = [].concat(...getData(file));
     let sum = 0;
     for (let i = 0; i < array.length; i++) {
