@@ -18,11 +18,13 @@ When converting the CSV file to a computable readable format the library expects
 
 The library will except CSV files with empty elements such as `2,3,1,,1,2,,1`.
 
-### Running the program in a terminal - \textit{Mac / Unix}
+A final naivety worth mentioning is with the mode method. If there are two integers with the same amount occurrences it will return the one that appeared latest.
+
+### Running the program
 
 There are a number of ways to use the library.
 
-#### Run from the command line using the run file
+#### Run from the terminal using the run file - *Mac / Unix*
 ```shell
 $ node run 'name_of_file.csv' 'task'
 ```
