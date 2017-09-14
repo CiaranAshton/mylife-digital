@@ -40,11 +40,10 @@ const calc = {
    */
   summation: function(file) {
     const data = getData(file);
+    const array = [].concat(...getData(file));
     let sum = 0;
-    for (let i = 0; i < data.length; i++) {
-      for (let j = 0; j < data[i].length; j++) {
-        sum += parseInt(data[i][j]);
-      }
+    for (let i = 0; i < array.length; i++) {
+      sum += parseInt(array[i]);
     }
     return sum;
   },
@@ -81,7 +80,6 @@ const calc = {
    */
   mode: function(file) {
     const array = [].concat(...getData(file));
-
     const mode = array
       .sort(
         (a, b) =>
