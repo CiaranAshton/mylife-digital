@@ -85,7 +85,8 @@ const calc = {
    */
   mode: function(file) {
     const array = [].concat(...getData(file));
-    let mode = array
+
+    const mode = array
       .sort(
         (a, b) =>
           array.filter(v => v === a).length - array.filter(v => v === b).length

@@ -13,6 +13,11 @@ Funtionality include:
 - Return the most numbers of integers on a single line
 - Return the most common integer
 
+### Naivety within the library
+When converting the CSV file a readable format the library expects the CSV file to only contain integers. The system expects no got ya's in that no other formats are in the file.
+
+The library will except CSV files with empty elements such as `2,3,1,,1,2,,1`.
+
 ### Running the program in a terminal - \textit{Mac / Unix}
 
 There are a number of ways to use the library.
