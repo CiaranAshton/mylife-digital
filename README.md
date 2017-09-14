@@ -1,7 +1,7 @@
 MyLife Digital – Programming Task 2017
 ===================
 ### About the Library
-The `mylife.js` library contains functionality to compute some basic statistics on a `.csv` file that contains integers typically in the range of $-1000$ to $1000$.
+The `mylife.js` library contains functionality to compute some basic statistics on a `.csv` file that contains integers typically in the range of -1000 to 1000.
 
 The library is written in vanilla Javascript using nodes filesystem module. The library requires Node to run. The system is built and tested on node version `8.4.0`.
 
