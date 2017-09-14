@@ -20,7 +20,7 @@ function getData(file) {
 }
 
 // Any functions or values in the following object will be accessible to
-// accessible to and files that import the library
+// any files that import the library
 const calc = {
   // Total number of elements in the array
   /**
