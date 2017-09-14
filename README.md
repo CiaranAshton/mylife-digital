@@ -13,7 +13,7 @@ Funtionality include:
 - Return the most numbers of integers on a single line
 - Return the most common integer
 
-### Running the program
+### Running the program in a terminal - \textit{Mac / Unix}
 
 There are a number of ways to use the library.
 
